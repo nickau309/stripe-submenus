@@ -3,7 +3,7 @@ import { FaCreditCard, FaBook, FaBriefcase } from "react-icons/fa";
 
 const sublinks = [
   {
-    page: "./products",
+    page: "products",
     links: [
       { label: "payment", icon: <FaCreditCard />, url: "./products" },
       { label: "terminal", icon: <FaCreditCard />, url: "./products" },
@@ -11,7 +11,7 @@ const sublinks = [
     ],
   },
   {
-    page: "./developers",
+    page: "developers",
     links: [
       { label: "plugins", icon: <FaBook />, url: "./products" },
       { label: "libraries", icon: <FaBook />, url: "./products" },
@@ -20,7 +20,7 @@ const sublinks = [
     ],
   },
   {
-    page: "./company",
+    page: "company",
     links: [
       { label: "about", icon: <FaBriefcase />, url: "./products" },
       { label: "customers", icon: <FaBriefcase />, url: "./products" },
